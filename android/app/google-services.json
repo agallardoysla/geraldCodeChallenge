@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "340442609843",
+    "firebase_url": "https://leasy-cdd2f.firebaseio.com",
+    "project_id": "leasy-cdd2f",
+    "storage_bucket": "leasy-cdd2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340442609843:android:320aff4d537f6791a558c6",
+        "android_client_info": {
+          "package_name": "com.leasy.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340442609843-88ib8jne3ql6be8sek9sq1ktasds69mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX-vE1NrHMAYm1LxZdyQ7vsMDliTDTCRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340442609843-88ib8jne3ql6be8sek9sq1ktasds69mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340442609843:android:68d1fe38484fb63f",
+        "android_client_info": {
+          "package_name": "pe.leasy.app.leasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340442609843-88ib8jne3ql6be8sek9sq1ktasds69mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX-vE1NrHMAYm1LxZdyQ7vsMDliTDTCRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340442609843-88ib8jne3ql6be8sek9sq1ktasds69mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
