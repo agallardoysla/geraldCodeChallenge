@@ -18,7 +18,7 @@ export default function BottomTabs() {
           tabBarStyle: {
             backgroundColor: colors.primary,
             paddingTop: normalize(10),
-            paddingBottom: normalize(10),
+            paddingBottom: normalize(15),
           },
           headerShown: false,
           tabBarActiveTintColor: colors.white,

@@ -1,4 +1,10 @@
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+  SafeAreaView,
+} from "react-native";
 import React from "react";
 import DrawerHeader from "../../navigator/components/DrawerHeader";
 import { colors } from "../../themes/layouts/colors";
@@ -10,7 +16,7 @@ const HomeScreen = () => {
   const { navigate } = useNavigation<DrawerNavigationProp<ParamListBase>>();
 
   return (
-    <View
+    <SafeAreaView
       style={{
         flex: 1,
         width: "100%",
@@ -43,7 +49,7 @@ const HomeScreen = () => {
           Go to SupportScreen
         </Text>
       </TouchableOpacity>
-    </View>
+    </SafeAreaView>
   );
 };
 

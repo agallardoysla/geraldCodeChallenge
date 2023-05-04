@@ -1,4 +1,10 @@
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import {
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 import React from "react";
 import { colors } from "../../themes/layouts/colors";
 import { ParamListBase, useNavigation } from "@react-navigation/native";
@@ -11,7 +17,7 @@ const SupportScreen = () => {
   useSetCurrentState();
 
   return (
-    <View
+    <SafeAreaView
       style={{ flex: 1, alignItems: "center", backgroundColor: colors.white }}
     >
       <View
@@ -33,7 +39,7 @@ const SupportScreen = () => {
       <Text style={{ textAlign: "center" }}>
         Este diseño es solo para fines de demostración.
       </Text>
-    </View>
+    </SafeAreaView>
   );
 };
 

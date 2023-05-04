@@ -63,9 +63,7 @@ const DrawerScreensContainer = ({
           animatedSubContainerStyle,
         ]}
       >
-        <SafeAreaView style={{ flex: 1, width: "100%" }}>
-          {children}
-        </SafeAreaView>
+        {children}
       </Animated.View>
     </Animated.View>
   );
